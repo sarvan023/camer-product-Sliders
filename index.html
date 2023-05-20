@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Website</title>
+    <link rel="stylesheet" href="Assets/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="cardleft">
+        <div class="mainimage">
+          <img id="fimg" src="Assets/images/b1.png" alt="" />
+          <img src="Assets/images/b2.png" alt="" />
+          <img src="Assets/images/b3.png" alt="" />
+          <img src="Assets/images/b4.png" alt="" />
+        </div>
+        <div class="img-select">
+          <div class="img active">
+            <a href="#" data-id="1"><img src="Assets/images/b1.png" alt="" /></a>
+          </div>
+          <div class="img">
+            <a href="#" data-id="2"><img src="Assets/images/b2.png" alt="" /></a>
+          </div>
+          <div class="img">
+            <a href="#" data-id="3"><img src="Assets/images/b3.png" alt="" /></a>
+          </div>
+          <div class="img">
+            <a href="#" data-id="4"><img src="Assets/images/b4.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="cardright">
+        <h2>Cannon EOS 1500D</h2>
+        <div class="star-group">
+          <div class="stars">
+            <ion-icon name="star-sharp"></ion-icon>
+            <ion-icon name="star-sharp"></ion-icon>
+            <ion-icon name="star-sharp"></ion-icon>
+            <ion-icon name="star-sharp"></ion-icon>
+            <ion-icon name="star-sharp"></ion-icon>
+          </div>
+            <span>3 Reviews</span>
+        </div>
+        <div class="price">
+          <span>$39.00</span>
+          <a>$50.00</a>
+        </div>
+        <div class="para">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore repellendus odio quia suscipit officiis! Quibusdam omnis laboriosam doloremque cupiditate neque velit alias, expedita hic maiores, aperiam dignissimos obcaecati ut quia.
+          </p>
+        </div>
+        <form action="Get">
+          <div class="form-group">
+            <label for="color">Color</label>
+            <select>
+              <option value="black">Black</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <div>
+              <p class="qty">Qty</p>
+            </div>
+            <div class="quantity">
+              <button id="minus" type="button">-</button>
+              <input type="text" id="input" value="1">
+              <button id="add" type="button">+</button>
+            </div>
+          </div> 
+        </form>
+        <div class="btn"> 
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="Assets/home.js"></script>
+  </body>
+</html>
